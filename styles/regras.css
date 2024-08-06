@@ -1,0 +1,33 @@
+.paragrafo {
+    text-align: justify;
+    width: 45%;
+}
+
+.sessao__regras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagem_jogo {
+    height: 20%;
+}
+
+    
+@media screen and (max-width: 1024px) {
+    .imagem_jogo {
+        display: none;
+    }
+
+    .paragrafo {
+        text-align: justify;
+        width: 60%;
+    }
+}

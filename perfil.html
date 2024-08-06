@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head class="cabecalho">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>Tênis de Mesa</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho__container">
+                <div class="container__logo">
+                    <img src="./img/logo_branco.png" alt="Logo tênis de mesa" class="cabecalho__logo">
+                    <h1 class="slogan">TABLE TENIS WORLD</h1>
+                </div>
+
+                <div class="cabecalho__container__pesquisa">
+                    <input type="text" class="cabecalho__pesquisa"  placeholder="Como posso te ajudar?">
+                </div>
+                
+                <div class="cabecalho__icones">
+                    <a href="./perfil.html"><img src="./img/perfil.png" alt="Perfil" class="icone"></a>
+                    <a href="#"><img src="./img/sacola_branco.png" alt="Carrinho de compras" class="icone"></a>
+                </div>
+                 </div>
+            <div class="navegacao">
+                <ul class="navegacao__lista">
+                    <li clas="navegacao__lista__item"><a href="index.html" class="navegacao__link">HISTÓRIA</a></li>
+                    <li class="navegacao__lista__item"><a href="regras.html" class="navegacao__link">REGRAS</a></li>
+                    <li clas="navegacao__lista__item"><a href="loja.html" class="navegacao__link">LOJA</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="login">
+                <h2 class="perfil_titulo">Faça seu Login</h2>
+                <form class="entre">
+                    <label for="e-mail" class="label">E-mail</label>
+                    <input type="text" id="e-mail" class="input">
+
+                    <label for="senha" class="label">Senha</label>
+                    <input type="password" id="senha" class="input">
+
+                    <input type="submit" value="Entre" class="botao_submit">
+                </form>
+            </div>
+
+            <div class="register">
+                <h2 class="perfil_titulo">Ainda não tem cadastro?</h2>
+                <h3 class="perfil_subtitulo">Registre-se!</h3>
+                <form class="registrese">
+                    <label for="nome" class="label">Nome</label>
+                    <input type="text" id="nome" class="input">
+
+                    <label for="datanascimento" class="label">Data de nascimento</label>
+                    <input type="date" id="datanascimento" class="input">
+
+                    <label for="tel" class="label">Telefone</label>
+                    <input type="text" id="tel" class="input">
+
+                    <label for="e-mail" class="label">E-mail</label>
+                    <input type="text" id="e-mail" class="input">
+
+                    <label for="senha" class="label">Senha</label>
+                    <input type="password" id="senha" class="input">
+                    <label for="csenha" class="label"> Confirmação de senha</label>
+                    <input type="password" id="csenha" class="input">
+
+                    <input type="submit" value="Cadastre-se" class="botao_submit">
+                </form>
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <div class="rodape__contato">
+                <div class="contato">
+                    <img src="img/envelope_branco.png" alt="Logo e-mail" class="icone__rodape">
+                    <a href="#" class="rodape__link">gnicacio@almavivasolutions.com.br</a>
+                </div>
+                <div class="contato">
+                    <img src="img/chamada-telefonica_branco.png" alt="Logo telefone" class="icone__rodape">
+                    <a href="#" class="rodape__link">(11) 99999-9999</a>
+                </div>
+            </div>
+            <h2 class="rodape__contato">Desenvolvido por Gustavo Nicacio</h2>
+        </footer>
+    </body>
+</html>

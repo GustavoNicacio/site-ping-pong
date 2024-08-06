@@ -1,0 +1,45 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+.rodape__contato {
+    display: flex;
+}
+
+.contato {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.rodape__link {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco);
+}
+
+.icone__rodape {
+    width: 15px;
+    height: 15px;
+    margin: 20px 5px 15px 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .rodape__contato {
+        display: flex;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .icone__rodape {
+        margin: 10px 5px 10px 10px;
+    }
+
+    .rodape__link {
+        font-size: 12px;
+    }
+}
