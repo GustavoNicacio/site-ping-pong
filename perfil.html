@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./style.css">
@@ -41,11 +42,14 @@
             <div class="login">
                 <h2 class="perfil_titulo">Faça seu Login</h2>
                 <form class="entre">
-                    <label for="e-mail" class="label">E-mail</label>
-                    <input type="text" id="e-mail" class="input">
-
-                    <label for="senha" class="label">Senha</label>
-                    <input type="password" id="senha" class="input">
+                    <div class="container align-items-center py-1">
+                        <label for="e-mail" class="label">E-mail</label>
+                        <input type="text" id="e-mail" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
+                    <div class="container align-items-center py-1">
+                        <label for="senha" class="label">Senha</label>
+                        <input type="password" id="senha" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
 
                     <input type="submit" value="Entre" class="botao_submit">
                 </form>
@@ -55,23 +59,34 @@
                 <h2 class="perfil_titulo">Ainda não tem cadastro?</h2>
                 <h3 class="perfil_subtitulo">Registre-se!</h3>
                 <form class="registrese">
-                    <label for="nome" class="label">Nome</label>
-                    <input type="text" id="nome" class="input">
+                    <div class="container align-items-center py-1">
+                        <label for="nome" class="form-label label">Nome</label>
+                        <input type="text" id="nome" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
 
-                    <label for="datanascimento" class="label">Data de nascimento</label>
-                    <input type="date" id="datanascimento" class="input">
+                    <label for="datanascimento" class="form-label label">Data de nascimento</label>
+                    <input type="date" id="inputPassword5" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
 
-                    <label for="tel" class="label">Telefone</label>
-                    <input type="text" id="tel" class="input">
+                    <div class="container align-items-center py-1">
+                        <label for="telefone" class="form-label label">Telefone</label>
+                        <input type="text" id="telefone" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
 
-                    <label for="e-mail" class="label">E-mail</label>
-                    <input type="text" id="e-mail" class="input">
+                    <div class="container align-items-center py-1">
+                        <label for="senha" class="form-label label">E-mail</label>
+                        <input type="text" id="inputPassword5" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
 
-                    <label for="senha" class="label">Senha</label>
-                    <input type="password" id="senha" class="input">
-                    <label for="csenha" class="label"> Confirmação de senha</label>
-                    <input type="password" id="csenha" class="input">
+                    <div class="container align-items-center py-1">
+                        <label for="senha" class="form-label label">Senha</label>
+                        <input type="password" id="senha" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
 
+                    <div class="container align-items-center py-1">
+                        <label for="confirmsenha" class="form-label label">Confirme a senha</label>
+                        <input type="password" id="confirmsenha" class="form-control w-50 input" aria-describedby="passwordHelpBlock">
+                    </div>
+                    
                     <input type="submit" value="Cadastre-se" class="botao_submit">
                 </form>
             </div>
@@ -90,5 +105,7 @@
             </div>
             <h2 class="rodape__contato">Desenvolvido por Gustavo Nicacio</h2>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
