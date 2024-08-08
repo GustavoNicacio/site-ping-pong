@@ -71,6 +71,11 @@
     width: 100px;
 }
 
+.botao_submit:hover {
+    background-color: #35524d;
+    border-color: #35524d;
+}
+
 
 @media screen and (max-width: 1024px) {
     .main {
